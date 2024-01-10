@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class testes1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner e = new Scanner (System.in);
+		
+		double preco = 0, totalP = 0;
+		int condicao = 0;
+		
+		System.out.println("Digite o preço do item: ");
+		preco = e.nextDouble();
+		
+		while (preco != 0){
+			System.out.println("Digite o preço de outro item desejado: ");
+			preco = e.nextDouble();
+			totalP += preco;
+		}
+		System.out.println("Digite a condição de pagamento: ");
+		condicao = e.nextInt();
+		
+		
+		double result = (condicao == 1) ? preco*0.9 : (condicao ==2) ? preco*0.95 : preco; 
+		
+		System.out.println("A vista:"+result);
+		
+		//if (condicao == 1){
+			//System.out.println("A vista em dinheiro ou cheque, "
+					//+ "com 10% de desc: "+preco*0.9);
+		//}else {
+			//if (condicao == 2){
+				//System.out.println("A vista com carto de crédito,"
+						//+ "com 5% de desc: "+preco*0.95);
+			//}
+		//}
+	}
+
+}

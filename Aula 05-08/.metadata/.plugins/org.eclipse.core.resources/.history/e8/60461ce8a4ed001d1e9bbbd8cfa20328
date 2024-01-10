@@ -1,0 +1,91 @@
+import java.util.Scanner;
+
+public class exercicio11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner e = new Scanner (System.in);
+		
+		String nome, modelo = " "; 
+		int tipo, quantidade = 0, precoi3;
+		double valori3 = 0 , valori5 = 0, valori7 = 0;
+		
+		
+		//atribuição inicial de variável	
+		//inicio while	
+		
+		
+		System.out.println("Digite o nome do cliente: ");
+		nome = e.next();
+		
+		System.out.println("1 = DeskTops - 2 = NoteBooks");
+		System.out.println("Digite o tipo do computador");
+		tipo = e.nextInt();
+		
+		//comeco while
+		while (tipo != 0){
+			
+		while (tipo != 1 && tipo !=2){
+		System.out.println("Digite o tipo indicado: ");
+		tipo = e.nextInt();
+		} // fim while tipo 1
+		
+		//continuação das entradas	
+		System.out.println(" 'I3' = PROCESSADOR I3 - 'I5' = PROCESSADOR I5 - 'I7' = PROCESSADOR I7");
+		System.out.println("Digite o modelo do computador: ");	
+		modelo = e.next();
+		//verificacao
+		while (! modelo.equalsIgnoreCase("i3")&& ! modelo.equalsIgnoreCase("i5") && !modelo.equalsIgnoreCase("i7")) {
+			System.out.println("Digite o modelo correto: ");
+			modelo = e.next();
+		}
+		
+		System.out.println("Digite a quantidade de computadores desejados: ");
+		quantidade = e.nextInt();
+		quantidade += quantidade;
+		
+		//fim das entradas de dados 
+		//começo do processamento e contas
+		
+		if (tipo == 1 && (modelo.equalsIgnoreCase("i3") || (modelo.equalsIgnoreCase("i5") || (modelo.equalsIgnoreCase("i7"))))){
+			valori3 += 1801;
+			valori5 += 2429;
+			valori7 += 3150;
+		} else {
+			valori3 += 1899;
+			valori5 += 2799;
+			valori7 += 3199;
+		}
+		
+		
+		
+		
+		
+		//continuação
+		
+		System.out.println("-----------NOVO-CLIENTE--------------");
+		
+		System.out.println("1 = DeskTops - 2 = NoteBooks");
+		System.out.println("Digite o tipo do computador");
+		tipo = e.nextInt();
+
+		}//fim do while tipo 
+		
+		
+		if (modelo.equalsIgnoreCase("i3")){
+			System.out.println("quantia de computadores comprados: "+quantidade);
+			System.out.println("Valor da quantia de computadores comprados: "+valori3 * quantidade);
+		} else {
+			if (modelo.equalsIgnoreCase("i5")){
+				System.out.println("quantia de computadores comprados: "+quantidade);
+				System.out.println("Valor da quantia de computadores comprados: "+valori5 * quantidade);
+			} else {
+				System.out.println("quantia de computadores comprados: "+quantidade);
+				System.out.println("Valor da quantia de computadores comprados: "+valori7 * quantidade);
+				}
+		} 
+		
+		
+	}
+}

@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class check_correcao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner e = new Scanner (System.in);
+		
+		int idade, qtd1 = 0;
+		double salario; 
+		char sexo, ocupacao;
+		String regiao;
+
+		//
+		
+		for (int i = 0; i<6; i++){
+			System.out.print("Digite sua idade: ");
+			idade = e.nextInt();
+			
+			System.out.print("Digite seu salário: ");
+			salario = e.nextDouble();
+			
+			System.out.println("(M) = Masculino - (F) = Feminino");
+			System.out.print("Digite seu Sexo: ");
+			sexo = e.next().charAt(0);
+			
+			System.out.print("Digite 'S' Para caso esteja saláriado e 'N' para caso não esteja: ");
+			ocupacao = e.next().charAt(0);
+			
+			System.out.println("S = SUL - O = OESTE - N = NORTE - L = LESTE");
+			System.out.print("Digite sua região: ");
+			regiao = e.next();
+			
+			
+		if (idade > 21 && salario > 2300){
+			qtd1++;
+		}
+			
+			
+			
+			
+		}
+
+	}
+
+}

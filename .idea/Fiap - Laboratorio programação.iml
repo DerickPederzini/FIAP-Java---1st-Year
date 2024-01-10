@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/07-08JAVA/untitled/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula 01 Java/Jogo do pokemon (1)/Exercises/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula 05-08/Aulinha FIAP/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula-14-08/Matriz/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula-14-08/tororo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula-14-08/untitled/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula-18-09/untitled/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula-2-10/untitled/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula-21-08/Aula-2-10/untitled/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula-21-08/untitled/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula-25-09/untitled1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula-6-11/untitled/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula.28-08/Aula-28-08/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula_23_10/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicios" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

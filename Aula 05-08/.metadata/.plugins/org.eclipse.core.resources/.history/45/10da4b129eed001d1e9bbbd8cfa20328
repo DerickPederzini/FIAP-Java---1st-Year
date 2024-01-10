@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class exercicio11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner e = new Scanner (System.in);
+		
+		String nome, modelo; 
+		int tipo, quantidade;
+		
+		
+	//atribuição inicial de variável	
+		System.out.println("Digite o nome do cliente: ");
+		nome = e.next();
+		
+		System.out.println("1 = DeskTops - 2 = NoteBooks");
+		System.out.println("Digite o tipo do computador");
+		tipo = e.nextInt();
+		
+	//inicio while	
+		while (tipo != 0){
+			while (tipo != 1 && tipo !=2){
+			System.out.println("Digite o tipo indicado: ");
+			tipo = e.nextInt();
+				
+				
+			} // fim while tipo 1
+			
+			
+		}//fim while tipo 0
+	}
+}
